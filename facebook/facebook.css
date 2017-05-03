@@ -1,0 +1,240 @@
+
+body{
+  background-color: #e9ebee;
+}
+.navba{
+  padding:7px;
+  background-color:#3b5998;
+}
+.headerarea{
+  display:inline-block;
+  width:40%;
+}
+.iconsarea{
+  display:inline-block;
+}
+.fir{
+  display: inline-block;
+  padding-right: 10px;
+}
+.sec{
+  display: inline-block;
+  padding: 0px 15px;
+}
+.fa-user{
+  vertical-align: middle;
+  width:32px;
+}
+.fa-facebook-square{
+  vertical-align: middle;
+  width:32px;
+}
+.fa-globe{
+  vertical-align: middle;
+  width:32px;
+}
+.third{
+  display: inline-block;
+
+}
+.fa-lock{
+  vertical-align: middle;
+  padding: 0px 5px;
+
+}
+.fa-sort-desc{
+  vertical-align: middle;
+  padding: 0px 5px;
+  
+}
+.fa-facebook-official{
+  vertical-align: bottom;
+}
+
+.fa-camera-retro{
+  vertical-align: middle;
+}
+.name{
+  padding-right: 8px;
+  border-right: 1px solid black;
+}
+.home{
+  padding-left: 8px;
+}
+h5{
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+.sss{
+  width: 90%;
+  border-radius: 3px;
+  border-right: 50px solid #f6f7f9;
+}
+.litem{
+  display: block;
+  width: 180px;
+  height: 30px;
+  text-align: left;
+}
+.unli{
+  padding:0px;
+}
+.unli a{
+  text-decoration: none;
+}
+.litem{
+  padding: 5px;
+}
+li:hover{
+  background-color: white;
+}
+aside{
+  float: left;
+  width: 180px;
+  padding-top: 12px;
+  background-color: #e9ebee;
+  min-height: 1000px;
+}
+.maincontent{
+  width: 940px;
+  padding-left: 11px;
+  padding-top: 11px;
+  margin-left: 180px;
+  background-color: #e9ebee;
+  min-height: 1000px;
+}
+.entire{
+  width:1096px;
+  float: left;
+  background-color: #e9ebee;
+}
+.disappear{
+  width:205px;
+  float: left;
+  background-color: #e9ebee;
+  margin-left: 100px;
+}
+.mainpage{
+  width: 600px;
+  float: left;
+  padding-right: 10px;
+}
+.secondpage{
+  float: ;
+  width: 320px;
+  padding: 12px;
+  margin-left: 600px;
+  border: 0.7px solid yellow;
+  background-color: white;
+}
+.secpost1{
+  padding: 3px;
+}
+.trending{
+  list-style: square;
+  padding: 3px;
+}
+.trending li{
+  display: block;
+}
+.post1{
+  padding: 8px;
+  background-color: #f6f7f9;
+}
+.post2{
+  background-color: white;
+}
+.post3{
+  background-color: white;
+}
+.updatepost{
+  padding: 5px;
+  background-color: white;
+  margin-top: 10px;
+}
+.btn-default{
+  border-radius:12px; 
+  background-color: #f6f7f9;
+  width: 138px;
+  height: 32px;
+
+}
+.headerphoto{
+  float: left;
+  margin-right: 10px
+}
+.header{
+  margin-bottom: 10px;
+}
+.second22 p{
+  margin: 0px;
+}
+.media1{
+  width:580px;
+  height: 400px;
+  overflow: hidden;
+}
+.iconmix{
+  float: left;
+}
+.lisha{
+  margin-left: 300px;
+}
+.lisha li{
+  display: inline;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+.lisha a{
+  text-decoration: none;
+  color: black;
+}
+.like1 p{
+display: inline-block;
+margin-right: 20px;
+}
+@media screen and (min-width: 720px) and (max-width: 1096px) {
+  .iconsarea{
+    width: 400px;
+    float: right;
+    }
+
+}
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  .headerarea{
+    width:283.5px ;
+  }
+  .iconsarea{
+    width: 500px;
+    margin-left:286px;
+    margin-top: -30px;
+  }
+}
+@media screen and (min-width: 1096px)and (max-width: 1400px){
+  .contentarea{
+    margin: 0 5%;
+  }
+  .iconsarea{
+    float: right;
+  }
+}
+  @media screen and (min-width: 1400px){
+    .navba{
+      padding-right: 200px;
+    }
+    .contentarea{
+      margin: 0px 200px 0px 10px;
+    }
+    .iconsarea{
+      float: right;
+    }
+}
+@media screen and (min-width: 1096px) {
+  .entire{
+    padding:0 5%;
+  }
+}
+
