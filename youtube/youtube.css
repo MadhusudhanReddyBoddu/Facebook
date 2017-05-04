@@ -1,0 +1,86 @@
+body{
+	background-color: #f1f1f1;
+}
+.containermain{
+	background-color: white;
+	width: 90%;
+}
+
+.nav2{
+	text-align: center;
+}
+
+.nav22{
+	margin-left: 400px;
+}
+p a{
+	color: black;
+}
+.col-xs-10{
+	padding-right:0px;
+}
+.col-xs-2{
+	padding-left: 0px;
+}
+.col-xs-7{
+	margin-top:20px;
+}
+.container-fluid{
+	background-color: white;
+}
+.main{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: white;
+}
+.innermain{
+	
+	display:inline-block;
+	width: 100%;
+}
+.first{
+	width: 20%;
+	float: left;
+}
+.second1{
+    width: 60%;
+    float:left;
+
+}
+.second2{
+	float:right;
+	width: 20%;
+	padding-left: 100px;
+	text-align:center;
+}
+input{
+	height:30px;
+}
+#btn1{
+height:30px;
+width:10%;
+}
+.btn-primary{
+	margin-left: 50px;
+}
+.navlist li{
+	display: inline-block;
+	text-align: center;
+	margin: 10px;
+	font-size: 20px;
+}
+#home{
+	background: no-repeat url(images/mm.jpg);
+    background-position: -546px -249px; 
+	width: 38px;
+	height: 31px;
+}
+@media screen and (min-width: 0px) and (max-width: 1245px) {
+  .glyphicon-open { display: none; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 881px) {
+  .col-xs-3 { width:40%; }   /* hide it elsewhere */
+}
